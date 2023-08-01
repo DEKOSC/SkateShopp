@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>SkateShopp</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+             <input type="checkbox" id="menu" class="container__botao">
+             <label for="menu">
+               <span class="cabecalho_menu-hambuerguer container__imagem" ></span>
+    </label>
+    <ul class="lista-menu">
+        <li class="lista-menu_titulo">Categorias</li>
+        <li class="lista-menu_item">
+    <a href="#" class="lista-menu_link">Favoritos</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Shopp</a>
+        </li>
+        <li class="lista-menu_item">
+            <a href="#" class="lista-menu_link">Carts</a>
+        </li>
+    </ul>
+    <h1 class="container__titulo"><b class="container__titulo--negrito">Skate</b>Shopp</h1> 
+    </div>
+
+    <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+        <label for="opcoes-menu">
+        <li class="opcoes__itens">Categorias</li>
+        </label>
+
+        <ul class="lista-menu">
+            <li class="lista-menu_item">
+        <a href="#" class="lista-menu_link">Favoritos</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Shopp</a>
+            </li>
+            <li class="lista-menu_item">
+                <a href="#" class="lista-menu_link">Carts</a>
+            </li>
+        </ul>
+
+        <li class="opcoes__itens"><a href="#" class="opcoes__link">Roupas</a></li>
+        <li class="opcoes__itens"><a href="#" class="opcoes__link">Compras</a></li>
+    </ul>
+
+    <div class="container">
+        <a href="#" class="container__link">
+            <img src="imagens/Usuário.svg" alt="Meu perfil">
+            <p class="container__texto"> Meu perfil</p>
+        </a>
+    </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner_titulo">Pesquise suas roupas aqui!</h2>
+        <p class="banner_texto">Aqui você encontra as roupas do seu estilo.</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual sera sua proxima compra?">
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel_titulo">Roupas</h2>
+        <!-- Slider main container -->
+        <div class="carrosel__container">
+<div class="swiper">
+
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="imagens/camisetachampion.jpg" alt="camisa champion"> </div>
+      <div class="swiper-slide"><img src="imagens/camisetadiamond.jpg" alt="camisa diamond"></div>
+      <div class="swiper-slide"><img src="imagens/camisetahigh.jpg" alt="camisa high"></div>
+      <div class="swiper-slide"><img src="imagens/moletomchampion.jpg" alt="moletom champion"></div>
+      <div class="swiper-slide"><img src="imagens/moletomnike.jpg" alt="moletom nike"></div>
+      <div class="swiper-slide"><img src="imagens/shortshigh.jpg" alt="shorts high"></div>
+      ...
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+    <div class="card">
+        <div class="card_descricao"></div>
+        <div class="descricao">
+            <h3 class="descricao__titulo">Talvez seja do seu interesse</h3>
+            <h2 class="descricao__titulo-roupa">Cargo Shorts Black</h2>
+            <p class="descricao__texto">Short de poliamida com dois bolsos cargos frontais.</p>
+        </div>
+        <div class="card__botoes">
+            <ul class="botoes">
+                <li class="botoes__item"><img src="imagens/Favoritos.svg" alt="Favoritar"></li>       
+        </ul>
+        <a href="#" class="botoes__ancora">Compre agora</a>
+        </div>
+    </div>
+</div>
+</section>
+
+    <section class="topico">
+        <h2 class="topicos__titulo">TOPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">High</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Nike</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Champion</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Lançamentos</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Camisa</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Moletom</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Calça</a>
+            </li>
+            <li class="topicos__item"></li>
+            <a href="#" class="topicos__link">Shorts</a>
+            </li>
+        </ul>
+    </section>
+       <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das nossas novidades!</h2>  
+            <p class="contato__texto">Novidade da suas roupas favoritas e promoções em seu e-mail todos os dias.</p>
+        </div>
+            <input type="email" placeholder="cadastre seu e-mail" class="contato__email">
+        </section>
+
+        <hr/>
+
+        <footer class="rodape">
+            <h2 class="rodape__titulo">SkateShopp</h2>
+        </footer>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 3,
+        pagination: {
+     el: '.swiper-pagination',
+     type: 'bullets'
+       },
+    });
+    </script>
+    
+</body>
+
+</html>
